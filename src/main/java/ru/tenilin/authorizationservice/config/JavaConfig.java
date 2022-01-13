@@ -1,6 +1,5 @@
 package ru.tenilin.authorizationservice.config;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.properties.ConstructorBinding;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import ru.tenilin.authorizationservice.repository.UserRepository;

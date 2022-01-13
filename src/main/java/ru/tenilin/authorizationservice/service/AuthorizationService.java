@@ -1,15 +1,10 @@
 package ru.tenilin.authorizationservice.service;
 
-import lombok.NoArgsConstructor;
-import org.springframework.http.HttpStatus;
-import org.springframework.stereotype.Service;
-import org.springframework.web.server.ResponseStatusException;
 import ru.tenilin.authorizationservice.repository.UserRepository;
-
 import java.util.List;
 
 public class AuthorizationService {
-    UserRepository userRepository;
+    private final UserRepository userRepository;
 
     public AuthorizationService(UserRepository userRepository){
         this.userRepository = userRepository;

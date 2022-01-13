@@ -1,9 +1,6 @@
 package ru.tenilin.authorizationservice.repository;
 
-import org.springframework.stereotype.Repository;
 import ru.tenilin.authorizationservice.service.Authorities;
-
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 
